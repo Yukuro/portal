@@ -1,0 +1,32 @@
+baseURL = "https://www.unknownsky.net"
+languageCode = "en-us"
+title = "My Portal"
+theme = "hugo-theme-shell"
+
+[Params]
+    [Params.Terminal]
+    userName  = "yukuro"
+    pcName = "myPortal"
+    workDir = "works"
+    profile = "profile.txt"
+
+    terminalDelay = 15
+
+    description = """
+    Hi!
+    I am Yuta Kurosawa (@Yukuro).
+    An undergraduate student
+    Intersted in : authentication, 3d printing etc...
+    Skill : Go, Python, Hugo, Docker etc...
+
+    """
+
+    [Params.Tree]
+    use = true
+    folderName = "myActivity"
+    files = [
+        ["cassis", "https://github.com/Yukuro/cassis"],
+        ["hugo-theme-shell", "https://github.com/Yukuro/hugo-theme-shell"],
+        ["Ender3 book(Japanese)", "https://techbookfest.org/product/5188169897082880"],
+        ["My_blog", "https://yukuro.hatenablog.com/"],
+    ]
