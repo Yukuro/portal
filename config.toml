@@ -9,15 +9,15 @@ theme = "hugo-theme-shell"
     pcName = "myPortal"
     workDir = "works"
     profile = "profile.txt"
+    scheme = "Dracula"
 
     terminalDelay = 15
 
     description = """
     Hi!
-    I am Yuta Kurosawa (@Yukuro).
-    An undergraduate student
+    I am Yukuro.
     Intersted in : authentication, 3d printing etc...
-    Skill : Go, Python, Hugo, Docker etc...
+    Skill : Java, Python, Hugo, Docker etc...
 
     """
 
@@ -25,10 +25,8 @@ theme = "hugo-theme-shell"
     use = true
     folderName = "myActivity"
     files = [
-        ["easyCansat", "https://cansat.unknownsky.net/"],
+        ["GitHub", "https://github.com/Yukuro"],
+        ["X(Formerly Twitter)", "https://x.com/kurokuro_dev"],
+        ["My blog", "https://yukuro.hatenablog.com/"],
         ["hugo-theme-shell", "https://github.com/Yukuro/hugo-theme-shell"],
-        ["cassis", "https://github.com/Yukuro/cassis"],
-        ["Ender3 book(Japanese)", "https://techbookfest.org/product/5188169897082880"],
-        ["My_blog", "https://yukuro.hatenablog.com/"],
-        ["Twitter", "https://twitter.com/kurokuro_dev"],
     ]
